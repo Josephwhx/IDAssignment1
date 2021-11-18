@@ -16,3 +16,13 @@ Since Tea Leaf is an e-commerce website, it's target consumer would probably be 
 
 **Wireframe:**
 https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
+
+## Features
+**Existing Features** <br>
+
+
+<br>
+
+**Features left to implement** <br>
+- Shopping cart
+- Newsletter
