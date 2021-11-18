@@ -11,7 +11,7 @@
 /* style the header element */
 header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.4);
     justify-content: space-between;
 }
 
@@ -53,8 +53,10 @@ header{
 /* style display-page */
 .display-page{
     text-align: center;
-    padding: 300px 0px 160px 0px;
-    background-image: url(/Images/tea-plantation.jpg);
+    padding: 250px 0px 130px 0px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Images/tea-plantation.jpg);
     background-size: cover;
     width: 100%;
+    font-size: 30px;
+    color: snow;
 }
