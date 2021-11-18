@@ -21,7 +21,7 @@ header{
     color: snow;
     font-size: 10px;
     text-decoration: none;
-    padding-left: 100px;
+    padding-left: 130px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
@@ -30,12 +30,12 @@ header{
 .nav-content{
     display: flex;
     list-style-type: none;
-    padding: 0px 50px;
+    padding: 0px 110px;
 }
 
 /* style nav-items */
 .nav-items{
-    padding: 5px 50px;
+    padding: 5px 60px;
 }
 
 /* style nav-items a */
@@ -47,4 +47,5 @@ header{
 /* style cart icon */
 .nav-items a ion-icon{
     font-size: 20px;
+    padding-left: 120px;
 }
