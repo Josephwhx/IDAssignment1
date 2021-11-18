@@ -58,7 +58,7 @@ ion-icon{
 .display-page{
     text-align: center;
     padding: 200px 0px 200px 0px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Images/tea-plantation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/tea-plantation.jpg);
     background-size: cover;
     width: 100%;
     font-size: 30px;
