@@ -1,7 +1,20 @@
 /* Imported fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
+/* style all */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* style the header element */
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* style logo */
 .logo{
     font-family: 'Ubuntu', sans-serif;
+    color: snow;
 }
