@@ -18,3 +18,10 @@ header{
     font-family: 'Ubuntu', sans-serif;
     color: snow;
 }
+
+/* style nav ul */
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 80px;
+}
