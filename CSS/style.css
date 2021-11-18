@@ -21,6 +21,9 @@ header{
     color: snow;
     font-size: 10px;
     text-decoration: none;
+    padding-left: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 /* style nav-content */
