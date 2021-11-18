@@ -29,6 +29,10 @@ header{
 
 /* style nav-items */
 .nav-items{
-    padding: 2px 50px;
+    padding: 5px 50px;
 }
 
+/* style nav-items a */
+.nav-items a{
+    text-decoration: none;
+}
