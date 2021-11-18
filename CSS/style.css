@@ -20,9 +20,15 @@ header{
     color: snow;
 }
 
-/* style nav ul */
-nav ul{
+/* style nav-content */
+.nav-content{
     display: flex;
     list-style-type: none;
-    padding: 0px 80px;
+    padding: 0px 50px;
 }
+
+/* style nav-items */
+.nav-items{
+    padding: 2px 50px;
+}
+
