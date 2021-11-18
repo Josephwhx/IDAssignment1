@@ -5,12 +5,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Varela', sans-serif;
 }
 
 /* style the header element */
 header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.45);
     justify-content: space-between;
 }
 
