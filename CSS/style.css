@@ -1,0 +1,7 @@
+/* Imported fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+/* style logo */
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+}
