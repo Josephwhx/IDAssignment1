@@ -236,3 +236,54 @@ footer{
 }
 
 /* ======================================= Shop.html ==================================== */
+/* Style title-display class */
+.title-display{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+/* style ionicon leaf */
+.leaf-ico{
+    padding: 0px;
+    font-size: 100px;
+    color: #99b898;
+}
+
+/* style the paragraph in title-display class */
+.title-display h1 p{
+    font-size: 60px;
+}
+
+/* style the sub nav container */
+.sub-nav-container{
+    list-style: none;
+}
+
+/* style the sub nav content */
+.sub-nav-content{
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    align-content: center;
+}
+
+/* style sub-nav-content a */
+.sub-nav-content a{
+    text-decoration: none;
+    padding: 10px 50px;
+    margin: 0px 10px;
+    color: #1b1a17;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Create hover effect fo sub-nav */
+.sub-nav-content a:hover{
+    color: #a4918e;
+}
+
+
