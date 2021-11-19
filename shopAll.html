@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Shop</title>
 </head>
+
 <body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Logo -->
+        <a class="logo" href="index.html">
+            <h1>Tea Leaf</h1>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="main-nav">
+            
+            <ul class="nav-content">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="shopAll.html">Shop</a></li>
+                <li class="nav-items"><a href="more.html">More</a></li>
+                <!-- Add logo icon with a value of 0 beside (value will be used in js to calculate item in cart)-->
+                <li class="nav-items"><a href="#"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
+            </ul>
+
+        </nav>
+
+    </header>
     
+
+
+    
+
+
+    <!-- Footer -->
+    <footer>
+        
+        <!-- Company name -->
+        <h2 style="font-family: 'Ubuntu';">Tea leaf</h2>
+
+        <!-- Newsletter -->
+        <div class="Newsletter">
+
+            <p>Stay connected <br>&<br>recieve our latest offers and products</p> <br>
+            <form action="?">
+                <input type="email" placeholder="example@gmail.com" required>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+        <br>
+        <!-- Copyrights -->
+        <p class="fp">Copyright &copy; 2021 Tea leaf</p>
+
+    </footer>
+
+
+
+
+
+
+    <!-- To install and use icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
