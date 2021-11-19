@@ -16,13 +16,21 @@ Since Tea Leaf is an e-commerce website, it's target consumer would probably be 
 
 **Wireframe:**
 https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
+<br>
+(note: There might be some differences from the original website to the wireframe.)
 
 ## Features
 **Existing Features** <br>
+- Feature 1 - Allows user to navigate around website easily with a navigation bar
+- Feature 2 - Newsletter, allows user to input their email (Won't be collecting the data, just a template)
 
 
 <br>
 
 **Features left to implement** <br>
 - Shopping cart
-- Newsletter
+
+**Technology Used**
+* Ionicons
+    * To import/download and use icons in my website.
+
