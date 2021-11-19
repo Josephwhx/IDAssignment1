@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Shop</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Logo -->
+        <a class="logo" href="index.html">
+            <h1>Tea Leaf</h1>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="main-nav">
+            
+            <ul class="nav-content">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="shopAll.html">Shop</a></li>
+                <li class="nav-items"><a href="more.html">More</a></li>
+                <!-- Add logo icon with a value of 0 beside (value will be used in js to calculate item in cart)-->
+                <li class="nav-items"><a href="#"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+
+        <!-- Display title / main header -->
+        <div class="title-display">
+            <h1>
+                <ion-icon class="leaf-ico" name="leaf-outline"></ion-icon> <br>
+                <p style="font-family: 'Ubuntu';">Tea Shop</p>
+            </h1>
+        </div>
+
+        <!-- Sub navigation bar -->
+        <div class="sub-nav-container">
+
+            <ul class="sub-nav-content">
+                <li><a id="all" href="shopAll.html#all">All</a></li>
+                <li><a id="bt" href="shopBT.html#bt">Black Tea</a></li>
+                <li><a id="gt" href="shopGT.html#gt">Green Tea</a></li>
+                <li><a id="wt" href="shopWT.html#wt">White Tea</a></li>
+                <li><a id="ht" href="shopHT.html#ht">Herbal Tea</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Product display -->
+        <div class="product-container">
+            <div class="products">
+
+                <!-- Products (1st row) -->
+                <div class="product-img">
+                    <a href="#"><img src="./Images/fuision-gw-gt-product.jpg" alt="Fusion Green & White Tea"><br><p>Fusion Grey & White Tea (18pcs)<br>$3.95</p></a>
+                    <a href="#"><img src="./Images/green-gt-product.jpg" alt="Premium Green Tea"><br><p>Premium Green Tea (18pcs)<br>$3.95</p></a>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        
+        <!-- Company name -->
+        <h2 style="font-family: 'Ubuntu';">Tea leaf</h2>
+
+        <!-- Newsletter -->
+        <div class="Newsletter">
+
+            <p>Stay connected <br>&<br>recieve our latest offers and products</p> <br>
+            <form action="?">
+                <input type="email" placeholder="example@gmail.com" required>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+        <br>
+        <!-- Copyrights -->
+        <p class="fp">Copyright &copy; 2021 Tea leaf</p>
+
+    </footer>
+
+
+    <!-- To install and use icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
