@@ -91,6 +91,14 @@ ion-icon{
     color: #a4918e;
 }
 
+/* style the find out more button */
+.more-info-container h2 a{
+    display: inline-block;
+    background-color: #5e5d5d;
+    color: #eae6e4;
+    border-radius: 3px;
+}
+
 /* style more-info-container h2 */
 .more-info-container h2{
     text-align: center;
