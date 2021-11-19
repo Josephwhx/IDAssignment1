@@ -30,7 +30,48 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
 **Features left to implement** <br>
 - Shopping cart
 
-**Technology Used**
+## Technology Used
 * Ionicons
     * To import/download and use icons in my website.
+    * Link: https://ionic.io/ionicons
+* HTML
+    * To create my website.
+* CSS
+    * To style my website.
+* JavaScript
+    * To install the ionicons to my website.
+
+## Testing
+
+
+## Credits
+**Content**
+* Some codes used in my website that i refer to:
+    * https://amashashalindi.medium.com/creating-a-small-e-commerce-website-using-html-and-css-df799808d12
+    * https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
+
+**Media**
+* Sources for images used in my website:
+    * (Product images)
+        * https://images.app.goo.gl/v6tM29rbPbJd6MDA9
+        * https://images.app.goo.gl/DshVmTKCJK65SSF69
+        * https://images.app.goo.gl/shdc2TG524SUZ7tF6
+        * https://images.app.goo.gl/cfTZErbwyJgdz6L87
+        * https://images.app.goo.gl/mBPdRdLyErrpSaGC8
+        * https://images.app.goo.gl/svKZuYSHem6dTZr59
+        * https://images.app.goo.gl/LbkPyUxwf8WmGTTf9
+        * https://images.app.goo.gl/NLcg4qqKZytAgdGo8
+        * https://images.app.goo.gl/w96PZZxG3WVdcPuN7
+        * https://images.app.goo.gl/39NgTbxi5cKyHuWQ9
+    * (Other images)
+        * https://images.app.goo.gl/9diGMaJfCLoqLYt6A
+        * https://images.app.goo.gl/6vCTtttJ6CnntQfx8
+        * https://images.app.goo.gl/jF68ps1dGa2dL12T8
+
+**Acknowledgements**
+* Websites that inspired my design/idea:
+    * apple (https://www.apple.com/sg/?afid=p238%7CshGhc4OE7-dc_mtid_18707vxu38484_pcrid_560188859734_pgrid_15033774143_&cid=aos-sg-kwgo-brand--slid---product--)
+    * stashtea (https://www.stashtea.com/)
+
+
 
