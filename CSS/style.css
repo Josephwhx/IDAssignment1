@@ -148,3 +148,26 @@ ion-icon{
     padding: 0px 80px;
     border-radius: 8px;
 }
+
+/* style header of popular product */
+.pop-product{
+    display: block;
+    text-align: center;
+    font-family: 'Ubuntu' sans-serif;
+    padding: 50px 0px;
+}
+
+/* style product-img class */
+.product-img{
+    display: flex;
+    margin: 0px 20px;
+}
+
+/* style image in products class */
+.product-img img{
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    padding: 50px;
+    object-fit: cover;
+}
