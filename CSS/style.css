@@ -64,3 +64,11 @@ ion-icon{
     font-size: 30px;
     color: snow;
 }
+
+/* style more-info-container */
+.more-info-container{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
