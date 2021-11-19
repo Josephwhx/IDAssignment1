@@ -81,7 +81,7 @@ ion-icon{
 /* stlye content-container */
 .content-container{
     display: flex;
-    padding-top: 50px;
+    padding: 80px 0px;
 }
 
 /* style c-text */
@@ -97,10 +97,27 @@ ion-icon{
 
 /* style image in c-img */
  .c-img img{
-    width: 50%;
+    width: 220px;
     height: auto;
-    float: left;
-    padding-left: 90px;
+    padding: 0px 80px;
     border-radius: 8px;
 }
 
+/* style c2-text */
+.c2-text{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0px 1px 5px rgb(90, 90, 90);
+    border-right: 0px;
+    flex-basis: 100%;
+}
+
+/* style image in c2-img */
+ .c2-img img{
+    width: 220px;
+    height: auto;
+    padding: 0px 80px;
+    border-radius: 8px;
+}
