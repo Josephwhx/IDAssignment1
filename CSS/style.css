@@ -68,7 +68,28 @@ ion-icon{
 /* style more-info-container */
 .more-info-container{
     display: block;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+/* style more-info-container h2 */
+.more-info-container h2{
+    text-align: center;
+    font-family: 'Ubuntu' sans-serif;
+}
+
+/* stlye content-1 */
+.content-1{
+    display: inline-block;
+}
+
+/* style content-1's h3 */
+.content-1 h3{
+    float: left;
+}
+
+/* style image in content-1 */
+ .content-1 img{
+    width: 20%;
+    height: auto;
 }
