@@ -54,6 +54,7 @@ ion-icon{
     padding-left: 120px;
 }
 
+/* ================================= Home Page ================================= */
 /* style display-page */
 .display-page{
     text-align: center;
@@ -65,11 +66,28 @@ ion-icon{
     color: snow;
 }
 
+/* style about-page */
+.about-page{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #e3d9d1;
+    color: snow;
+}
+
 /* style more-info-container */
 .more-info-container{
     display: block;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+/* style for more-info-container a */
+.more-info-container a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Ubuntu' sans-serif;
+    background-color: #95a5a6;
+    color: white;
 }
 
 /* style more-info-container h2 */
