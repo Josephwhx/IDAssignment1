@@ -11,7 +11,7 @@
 /* style the header element */
 header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.774);
     justify-content: space-between;
     position: fixed;
     width: 100%;
@@ -20,7 +20,7 @@ header{
 /* style logo */
 .logo{
     font-family: 'Ubuntu', sans-serif;
-    color: snow;
+    color: #1b1a17;
     font-size: 10px;
     text-decoration: none;
     padding-left: 130px;
@@ -43,7 +43,7 @@ header{
 /* style nav-items a */
 .nav-items a{
     text-decoration: none;
-    color: snow;
+    color: #1b1a17;
     font-weight: 20;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -70,8 +70,8 @@ ion-icon{
 .about-page{
     text-align: center;
     padding: 30px 0px;
-    background-color: #e3d9d1;
-    color: snow;
+    color: #a4918e;
+    background-color:#eae6e4 ;
 }
 
 /* style more-info-container */
