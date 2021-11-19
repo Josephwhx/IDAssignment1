@@ -184,3 +184,43 @@ ion-icon{
     border-radius: 5px;
     box-shadow: 1px 1px 5px #5e5d5d;
 }
+
+/* style the footer */
+footer{
+    padding: 32px;
+    background-color: #263844;
+    color: snow;
+    text-align: center;
+}
+
+/* style the newsletter */
+.Newsletter{
+    display: block;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+/* style the input of newsletter */
+.Newsletter form input{
+    height: 30px;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/* style the submit button */
+.Newsletter button{
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: lightgreen;
+    color: snow;
+    border-radius: 12px;
+}
+
+/* style footer paragraph */
+.fp{
+    font-size: 10px;
+}
