@@ -79,17 +79,20 @@ ion-icon{
 }
 
 /* stlye content-1 */
-.content-1{
-    display: inline-block;
+.content1-container{
+    display: flex;
 }
 
 /* style content-1's h3 */
-.content-1 h3{
+.c1-text{
     float: left;
+    text-align: center;
 }
 
 /* style image in content-1 */
- .content-1 img{
-    width: 20%;
+ .c1-img img{
+    width: 50%;
     height: auto;
+    float: right;
+    padding-left: 10px;
 }
