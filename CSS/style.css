@@ -286,4 +286,12 @@ footer{
     color: #a4918e;
 }
 
+/* --------------- Products --------------*/
+.product-container{
+    display: block;
+    text-align: center;
+    font-family: 'Ubuntu' sans-serif;
+    padding: 50px 0px;
+}
+
 
