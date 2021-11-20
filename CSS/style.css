@@ -109,6 +109,7 @@ ion-icon{
     display: flex;
     margin: 0px 20px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /* style image in products class */
@@ -165,6 +166,11 @@ footer{
     background-color: lightgreen;
     color: snow;
     border-radius: 12px;
+}
+
+/* Create hover effect on newletter btn */
+.Newsletter button:hover{
+    box-shadow: 0.5px 0.5px 2px #f5e6e4;
 }
 
 /* style footer paragraph */
