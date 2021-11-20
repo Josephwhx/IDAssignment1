@@ -273,12 +273,31 @@ footer{
     width: 300px;
     height: 250px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
 }
 
 /* style content-item class */
 .content-item{
     width: min-content;
     padding: 12px;
+    line-height: 1.6;
 }
 
+/* style h3 content-item class */
+.content-item h3{
+    color: #263844;
+}
+
+/* style p in content-item class */
+.content-item p{
+    color: #5e5d5d;
+}
+
+/* style a in content-item class */
+.content-item a{
+    text-decoration: none;
+    color: #746463;
+    font-weight: 600;
+}
 
