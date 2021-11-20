@@ -301,3 +301,38 @@ footer{
     font-weight: 600;
 }
 
+/* ======================================= (productName).html ============================= */
+/* style the tea-product-container class */
+.tea-product-container{
+    display: block;
+    padding: 60px 0px 50px;
+}
+
+/* style the tea-product-content class */
+.tea-product-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    margin: 0px 120px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 20px;
+}
+
+/* style the tea-product-text class */
+.tea-product-text{
+    padding: 50px 50px 50px 0px;
+    line-height: 1.6;
+    color: #263844;
+}
+
+/* style tea-product-img class */
+.tea-product-img{
+    padding: 50px 0px 50px 50px;
+}
+
+/* style the img in tea-product-img class */
+.tea-product-img img{
+    width: 70%;
+    object-fit: cover;
+}
