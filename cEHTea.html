@@ -27,7 +27,7 @@
                 <li class="nav-items"><a href="shopAll.html">Shop</a></li>
                 <li class="nav-items"><a href="more.html">More</a></li>
                 <!-- Add logo icon with a value of 0 beside (value will be used in js to calculate item in cart)-->
-                <li class="nav-items"><a href="#"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
+                <li class="nav-items" id="cNo"><a href="#"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
             </ul>
 
         </nav>
@@ -57,11 +57,11 @@
                     <p style="font-weight: 550;">Quantity</p>
                     <!-- Input for quantity -->
                     <span> <!-- To keep all in one line -->
-                        <button>-</button>
-                        <input type="number" name="" id="">
-                        <button>+</button>
-                    </span> <br>
-                    <button>Add to cart</button>
+                        <button class="btn-minus" type="button">-</button>
+                        <input class="quantity" id="qty" type="number" value="1">
+                        <button class="btn-plus" type="button">+</button>
+                    </span> <br><br><br><br>
+                    <button class="btn-addtocart" type="button">Add to cart</button>
                 </div>
 
             </div>
@@ -69,6 +69,22 @@
         </div>
 
         <!-- Suggested Products -->
+        <div class="suggested-product">
+
+            <!-- Heading -->
+            <h2>Suggested Products</h2>
+            <!-- Display product -->
+            <div class="product-container">
+
+                <div class="products">
+                    <!-- Products -->
+                    <div class="product-img">
+                        <a href="#"><img src="./Images/lemon-ginger-ht-product.jpg" alt="Lemon Ginger Herbal Tea"><br><p>Lemon Ginger Herbal Tea (18pcs)<br>$3.95</p></a>
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
 
