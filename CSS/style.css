@@ -363,6 +363,7 @@ footer{
     border-color: #74646388;
     border-style: solid;
     border-width: 1px;
+    border-radius: 2px;
 }
 
 /* style the btn-plus class */
@@ -385,17 +386,16 @@ footer{
     padding: 18px 0px;
     font-weight: 550;
     color: #263844;
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     border-radius: 28px;
-    background-color: #b8dab7;
+    background-color: #bfe4bd;
     font-size: 18px;
 }
 
 /* Create hover effect for btn-addtocart class */
 .btn-addtocart:hover{
-    background-color: #afd3ae;
-    color: snow;
+    background-color: #c6ecc5;
     cursor: pointer;
 }
 
