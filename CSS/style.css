@@ -315,7 +315,7 @@ footer{
     justify-content: start;
     align-content: center;
     margin: 0px 120px;
-    box-shadow: 1px 1px 5px;
+    box-shadow: 1px 1px 4px #5e5d5d;
     border-radius: 20px;
 }
 
@@ -385,6 +385,18 @@ footer{
     padding: 18px 0px;
     font-weight: 550;
     color: #263844;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 28px;
+    background-color: #b8dab7;
+    font-size: 18px;
+}
+
+/* Create hover effect for btn-addtocart class */
+.btn-addtocart:hover{
+    background-color: #afd3ae;
+    color: snow;
+    cursor: pointer;
 }
 
 /* style suggested-product class */
