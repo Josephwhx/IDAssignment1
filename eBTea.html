@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/sCart.js" async></script>
+    <title>Tea Product</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header style="position: static;">
+
+        <!-- Logo -->
+        <a class="logo" href="index.html">
+            <h1>Tea Leaf</h1>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="main-nav">
+            
+            <ul class="nav-content">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="shopAll.html">Shop</a></li>
+                <li class="nav-items"><a href="more.html">More</a></li>
+                <!-- Add logo icon with a value of 0 beside (value will be used in js to calculate item in cart)-->
+                <li class="nav-items cart"><a href="#"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+
+        <!-- Container -->
+        <div class="tea-product-container">
+
+            <!-- Structure for contents -->
+            <div class="tea-product-content">
+
+                <!-- Image of product -->
+                <div class="tea-product-img">
+                    <img src="./Images/english-bt-product.jpg" alt="English Breakfast Tea">
+                </div>
+
+                <!-- Detail of product -->
+                <div class="tea-product-text">
+                    <h2 style="font-family: 'Ubuntu';">English Breakfast Tea (18pcs)</h2>
+                    <hr style="height: 1px; background-color: rgb(224, 224, 224); border: white;"><br><br>
+                    <p style="font-weight: 550;">Price</p>
+                    <p>$3.95</p><br>
+                    <p style="font-weight: 550;">Quantity</p>
+                    <!-- Input for quantity -->
+                    <span> <!-- To keep all in one line -->
+                        <button class="btn-minus" type="button">-</button>
+                        <input class="quantity" id="qty" type="number" value="1">
+                        <button class="btn-plus" type="button">+</button>
+                    </span> <br><br><br>
+                    <button class="btn-addtocart" type="button">Add to cart</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Suggested Products -->
+        <div class="suggested-product">
+
+            <!-- Heading -->
+            <h2>Suggested Products</h2>
+            <!-- Display product -->
+            <div class="product-container">
+
+                <div class="products">
+                    <!-- Products -->
+                    <div class="product-img">
+                        <a href="#"><img src="./Images/earl-grey-bt-product.jpg" alt="Earl Grey Black Tea"><br><p>Earl Grey Black Tea (18pcs)<br>$3.95</p></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        
+        <!-- Company name -->
+        <h2 style="font-family: 'Ubuntu';">Tea leaf</h2>
+
+        <!-- Newsletter -->
+        <div class="Newsletter">
+
+            <p>Stay connected <br>&<br>recieve our latest offers and products</p> <br>
+            <form action="?">
+                <input type="email" placeholder="example@gmail.com" required>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+        <br>
+        <!-- Copyrights -->
+        <p class="fp">Copyright &copy; 2021 Tea leaf</p>
+
+    </footer>
+
+
+    <!-- To install and use icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
