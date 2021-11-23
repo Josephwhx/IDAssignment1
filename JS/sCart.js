@@ -66,12 +66,12 @@ for (i = 0; i < cartBtn.length; i++){
 /* ====================== Create function to check local storage for items ================================ */
 /* ======== and display on the cart if there is items. (for loading items in cart when page refresh) ========== */
 function checkItemsInCart (){
-    let value = localStorage.getItem("total");
+    let item = localStorage.getItem("total");
 
     /* Check if there is any value in local storage */
-    if (value != null || value != NaN){
+    if (item != null){
         /* display no. of items in the cart */
-        document.querySelector(".cart span").textContent = value;
+        document.querySelector(".cart span").textContent = item;
     }
 };
 
