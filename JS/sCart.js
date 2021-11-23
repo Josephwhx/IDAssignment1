@@ -53,6 +53,16 @@ for(i = 0; i < addToCart.length; i++){
 /* =================== To clear items in cart when cart button is clicked ================== */
 let cartBtn = document.querySelectorAll(".cart");
 
+for (i = 0; i < cartBtn.length; i++){
+    var cBtn = cartBtn[i];
+    cBtn.addEventListener("click", function(){
+        /* To clear data in local storage */
+        total = 0;
+        localStorage.setItem("total", total);
+        document.querySelector(".cart span").textContent = total;
+    });
+}
+
 /* ====================== Create function to check local storage for items ================================ */
 /* ======== and display on the cart if there is items. (for loading items in cart when page refresh) ========== */
 function checkItemsInCart (){
