@@ -1,3 +1,4 @@
+/* ====================================== To Adjust quantity of product =================================== */
 var plusQuantity = document.getElementsByClassName("btn-plus");
 var minusQuantity = document.getElementsByClassName("btn-minus");
 
@@ -20,6 +21,22 @@ for (var i = 0; i < minusQuantity.length; i++){
     })
 }
 
-/* Create function to add items to cart */
+/* ====================== To adjust the number of item displayed in cart ========================== */
+let addToCart = document.querySelectorAll(".btn-addtocart");
+let total = 0;
 
-/* Create function to update cart number */
+for(i = 0; i < addToCart.length; i++){
+    let add = addToCart[i];
+    add.addEventListener('click', function(){
+        if(total == 0){
+            let qty = parseInt(document.querySelector(".quantity").value);
+            document.querySelector(".cart span").textContent = qty;
+            total += qty;
+        }
+        else{
+            let qty = parseInt(document.querySelector(".quantity").value);
+            total += qty;
+            document.querySelector(".cart span").textContent = total;
+        }
+    });
+}
