@@ -321,19 +321,20 @@ footer{
 
 /* style the tea-product-text class */
 .tea-product-text{
-    padding: 50px 50px 50px 0px;
+    padding: 50px 50px 50px 50px;
     line-height: 1.6;
     color: #263844;
 }
 
 /* style tea-product-img class */
 .tea-product-img{
-    padding: 50px 0px 50px 50px;
+    padding: 50px 0px 50px 100px;
+    box-sizing: content-box;
 }
 
 /* style the img in tea-product-img class */
 .tea-product-img img{
-    width: 70%;
+    width: 285px;
     object-fit: cover;
 }
 
