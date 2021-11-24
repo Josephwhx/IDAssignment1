@@ -21,10 +21,21 @@ for (var i = 0; i < minusQuantity.length; i++){
     });
 };
 
+/* ===================== Create a function to set total to items in cart if there is ================== */
+function trueTotal(){
+    let valueInCart = localStorage.getItem("total");
+
+    /* Check if there is value in valeInCart or not */
+    if (valueInCart){
+        var total = valueInCart;
+        return total;
+    }
+}
+
 /* ====================== To adjust the number of item displayed in cart ========================== */
 /* ====================== When button is clicked ========================== */
 let addToCart = document.querySelectorAll(".btn-addtocart");
-var total = 0;
+var total = parseInt(trueTotal());
 
 for(i = 0; i < addToCart.length; i++){
     let add = addToCart[i];
