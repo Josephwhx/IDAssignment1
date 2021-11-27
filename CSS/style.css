@@ -1,220 +1,380 @@
 /* Imported fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
 
 /* style all */
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Varela', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Varela", sans-serif;
 }
 
-/* style the header element */
-header{
+/* Header for min-width size 280px */
+@media screen and (min-width: 280px) {
+  /* style the header element */
+  header {
+    overflow: hidden;
+    background-color: rgba(235, 235, 235, 0.774);
+    position: relative;
+  }
+
+  /* style logo */
+  .logo {
+    font-family: "Ubuntu", sans-serif;
+    color: #1b1a17;
+    font-size: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: block;
+  }
+
+  /* style nav-content */
+  .nav-content {
+    display: none;
+    background-color: #dad6d6;
+    list-style: none;
+    padding: 10px 0px 10px 22px;
+    line-height: 1.5;
+  }
+
+  /* style nav-items a */
+  .nav-items a {
+    text-decoration: none;
+    color: #1b1a17;
+    font-weight: 20;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+  }
+
+  /* create hover effect on nav */
+  .nav-items a:hover {
+    color: #a4918e;
+  }
+
+  /* style cart icon */
+  ion-icon {
+    font-size: 18px;
+  }
+
+  /* style menu icon */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    color: #1b1a17;
+    padding-right: 10px;
+  }
+}
+
+/* Header for width size 760px */
+@media screen and (min-width: 760px) {
+  /* style the header element */
+  header {
     display: flex;
     background-color: rgba(255, 255, 255, 0.774);
     justify-content: space-between;
     position: fixed;
     width: 100%;
+  }
+
+  /* style logo */
+  .logo {
+    font-family: "Ubuntu", sans-serif;
+    color: #1b1a17;
+    font-size: 10px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  /* style nav-content */
+  .nav-content {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 80px;
+  }
+
+  /* style nav-items */
+  .nav-items {
+    padding: 5px 30px;
+  }
+
+  /* style nav-items a */
+  .nav-items a {
+    text-decoration: none;
+    color: #1b1a17;
+    font-weight: 20;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  /* create hover effect on nav */
+  .nav-items a:hover {
+    color: #a4918e;
+  }
+
+  /* style cart icon */
+  ion-icon {
+    font-size: 18px;
+    padding-left: 80px;
+  }
+
+  /* style menu icon */
+  .menu-icon {
+    display: none;
+  }
 }
 
-/* style logo */
-.logo{
-    font-family: 'Ubuntu', sans-serif;
+/* Header for width size 1200px */
+@media screen and (min-width: 1200px) {
+  /* style the header element */
+  header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.774);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+
+  /* style logo */
+  .logo {
+    font-family: "Ubuntu", sans-serif;
     color: #1b1a17;
     font-size: 10px;
     text-decoration: none;
     padding-left: 130px;
     padding-top: 2px;
     padding-bottom: 2px;
-}
+  }
 
-/* style nav-content */
-.nav-content{
+  /* style nav-content */
+  .nav-content {
     display: flex;
     list-style-type: none;
     padding: 0px 110px;
-}
+  }
 
-/* style nav-items */
-.nav-items{
+  /* style nav-items */
+  .nav-items {
     padding: 5px 60px;
-}
+  }
 
-/* style nav-items a */
-.nav-items a{
+  /* style nav-items a */
+  .nav-items a {
     text-decoration: none;
     color: #1b1a17;
     font-weight: 20;
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: "Ubuntu", sans-serif;
+  }
 
-/* create hover effect on nav */
-.nav-items a:hover{
+  /* create hover effect on nav */
+  .nav-items a:hover {
     color: #a4918e;
-}
+  }
 
-/* style cart icon */
-ion-icon{
+  /* style cart icon */
+  ion-icon {
     font-size: 20px;
     padding-left: 120px;
+  }
+
+  /* style menu icon */
+  .menu-icon {
+    display: none;
+  }
 }
 
 /* ======================================= Home Page ======================================= */
 /* style display-page */
-.display-page{
-    text-align: center;
-    padding: 200px 0px 190px 0px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/tea-plantation.jpg);
-    background-size: cover;
-    width: 100%;
-    font-size: 30px;
-    color: snow;
+.display-page {
+  text-align: center;
+  padding: 200px 0px 190px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/tea-plantation.jpg);
+  background-size: cover;
+  width: 100%;
+  font-size: 30px;
+  color: snow;
 }
 
 /* style about-page */
-.about-page{
-    text-align: center;
-    padding: 40px 0px;
-    color: #1b1a17;
-    background-color: #f5e6e4;
+.about-page {
+  text-align: center;
+  padding: 40px 0px;
+  color: #1b1a17;
+  background-color: #f5e6e4;
 }
 
 /* style h-btn */
-.h-btn{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 550;
-    background-color: #263844;
-    padding: 10px 15px;
-    color: #f7f7f7;
-    border-radius: 20px;
+.h-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #263844;
+  padding: 10px 15px;
+  color: #f7f7f7;
+  border-radius: 20px;
 }
 
 /* Create hover effect for h-btn */
-.h-btn:hover{
-    box-shadow: 0.5px 0.5px 6px #f5e6e4;
+.h-btn:hover {
+  box-shadow: 0.5px 0.5px 6px #f5e6e4;
 }
 
 /* ------------------- Products -------------------- */
 /* style header of popular product */
-.pop-product{
-    display: block;
-    text-align: center;
-    font-family: 'Ubuntu' sans-serif;
-    padding: 50px 0px;
+.pop-product {
+  display: block;
+  text-align: center;
+  font-family: "Ubuntu" sans-serif;
+  padding: 50px 0px;
 }
 
 /* style product-img class */
-.product-img{
-    display: flex;
-    margin: 0px 20px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.product-img {
+  display: flex;
+  margin: 0px 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* style image in products class */
-.product-img img{
-    width: 150px;
-    height: 200px;
-    padding: 50px;
-    object-fit: cover;
+.product-img img {
+  width: 150px;
+  height: 200px;
+  padding: 50px;
+  object-fit: cover;
 }
 
 /* style the links of product */
-.product-img a{
-    text-decoration: none;
-    color: #5e5d5d;
+.product-img a {
+  text-decoration: none;
+  color: #5e5d5d;
 }
 
 /* create hover effect for product link */
-.product-img a:hover{
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #5e5d5d;
+.product-img a:hover {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #5e5d5d;
 }
 
 /* ------------------- Footer ---------------------- */
 /* style the footer */
-footer{
-    padding: 32px;
-    background-color: #263844;
-    color: snow;
-    text-align: center;
+footer {
+  padding: 32px;
+  background-color: #263844;
+  color: snow;
+  text-align: center;
 }
 
 /* style the newsletter */
-.Newsletter{
-    display: block;
-    justify-content: center;
-    padding: 10px 0px;
+.Newsletter {
+  display: block;
+  justify-content: center;
+  padding: 10px 0px;
 }
 
 /* style the input of newsletter */
-.Newsletter form input{
-    height: 30px;
-    text-align: center;
-    width: 200px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
+.Newsletter form input {
+  height: 30px;
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
 }
 
 /* style the submit button */
-.Newsletter button{
-    height: 30px;
-    width: 60px;
-    border: none;
-    background-color: lightgreen;
-    color: snow;
-    border-radius: 12px;
+.Newsletter button {
+  height: 30px;
+  width: 60px;
+  border: none;
+  background-color: lightgreen;
+  color: snow;
+  border-radius: 12px;
 }
 
 /* Create hover effect on newletter btn */
-.Newsletter button:hover{
-    box-shadow: 0.5px 0.5px 2px #f5e6e4;
+.Newsletter button:hover {
+  box-shadow: 0.5px 0.5px 2px #f5e6e4;
 }
 
 /* style footer paragraph */
-.fp{
-    font-size: 10px;
+.fp {
+  font-size: 10px;
 }
 
 /* ======================================= Shop.html ==================================== */
 /* Style title-display class */
-.title-display{
-    display: block;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 30px;
+.title-display {
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 /* style ionicon leaf */
-.leaf-ico{
-    padding: 0px;
-    font-size: 100px;
-    color: #99b898;
+.leaf-ico {
+  padding: 0px;
+  font-size: 100px;
+  color: #99b898;
 }
 
 /* style the paragraph in title-display class */
-.title-display h1 p{
-    font-size: 60px;
+.title-display h1 p {
+  font-size: 60px;
 }
 
 /* style the sub nav container */
-.sub-nav-container{
-    list-style: none;
+.sub-nav-container {
+  list-style: none;
 }
 
-/* style the sub nav content */
-.sub-nav-content{
+/* Sub nav for min width of 280px */
+@media (min-width: 280px) {
+  /* style the sub nav content */
+  .sub-nav-content {
     text-decoration: none;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style: none;
     align-content: center;
+  }
+
+  /* style sub-nav-content a */
+  .sub-nav-content a {
+    text-decoration: none;
+    padding: 8px 6px;
+    margin: 0px 5px;
+    color: #1b1a17;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    font-weight: 580;
+    font-size: 50%;
+  }
+
+  /* Create hover effect fo sub-nav */
+  .sub-nav-content a:hover {
+    color: #a4918e;
+  }
 }
 
-/* style sub-nav-content a */
-.sub-nav-content a{
+/* Sub nav for min width of 1080px */
+@media (min-width: 1000px) {
+  /* style the sub nav content */
+  .sub-nav-content {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+  }
+
+  /* style sub-nav-content a */
+  .sub-nav-content a {
     text-decoration: none;
     padding: 10px 50px;
     margin: 0px 10px;
@@ -222,166 +382,165 @@ footer{
     background-color: #f7f7f7;
     border-radius: 20px;
     font-weight: 600;
-}
+    font-size: initial;
+  }
 
-/* Create hover effect fo sub-nav */
-.sub-nav-content a:hover{
+  /* Create hover effect fo sub-nav */
+  .sub-nav-content a:hover {
     color: #a4918e;
+  }
 }
 
 /* --------------- Products --------------*/
-.product-container{
-    display: block;
-    text-align: center;
-    font-family: 'Ubuntu' sans-serif;
-    padding: 50px 0px;
+.product-container {
+  display: block;
+  text-align: center;
+  font-family: "Ubuntu" sans-serif;
+  padding: 50px 0px;
+  min-height: 50vh;
 }
 
 /* =================================== More.html ============================== */
 /* style the learn more page */
-.learn-more{
-    padding: 100px 0px 50px;
-    text-align: center;
-    background-image: url(../Images/learn-more-bg.jpg);
-    background-size: cover;
-    width: 100%;
+.learn-more {
+  padding: 100px 0px 50px;
+  text-align: center;
+  background-image: url(../Images/learn-more-bg.jpg);
+  background-size: cover;
+  width: 100%;
 }
 
 /* style h1 in learn more class */
-.learn-more h1{
-    font-size: 60px;
-    padding-top: 70px;
+.learn-more h1 {
+  font-size: 60px;
+  padding-top: 70px;
 }
 
 /* style content-container class */
-.content-container{
-    display:block;
-    padding: 40px 0px;
-    margin: 2px 0px;
+.content-container {
+  display: block;
+  padding: 40px 0px;
+  margin: 2px 0px;
 }
 
 /* style img-container class */
-.img-container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: center;
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 /* style img in content-item class */
-.content-item img{
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px;
+.content-item img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px;
 }
 
 /* style content-item class */
-.content-item{
-    width: min-content;
-    padding: 12px;
-    line-height: 1.6;
+.content-item {
+  width: min-content;
+  padding: 12px;
+  line-height: 1.6;
 }
 
 /* style h3 content-item class */
-.content-item h3{
-    color: #263844;
+.content-item h3 {
+  color: #263844;
 }
 
 /* style p in content-item class */
-.content-item p{
-    color: #5e5d5d;
+.content-item p {
+  color: #5e5d5d;
 }
 
 /* style a in content-item class */
-.content-item a{
-    text-decoration: none;
-    color: #746463;
-    font-weight: 600;
+.content-item a {
+  text-decoration: none;
+  color: #746463;
+  font-weight: 600;
 }
 
 /* ======================================= (productName).html ============================= */
-/* style the tea-product-container class */
-.tea-product-container{
-    display: block;
-    padding: 60px 0px 50px;
-}
 
-/* style the tea-product-content class */
-.tea-product-content{
+/* Product page for min-width of 280 */
+@media (min-width: 280px) {
+  /* style the tea-product-container class */
+  .tea-product-container {
+    display: block;
+    padding: 40px 0px;
+  }
+
+  /* style the tea-product-content class */
+  .tea-product-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     align-content: center;
-    margin: 0px 120px;
-    box-shadow: 1px 1px 4px #5e5d5d;
+    margin: 0px 70px;
     border-radius: 20px;
-}
+  }
 
-/* style the tea-product-text class */
-.tea-product-text{
-    padding: 50px 50px 50px 50px;
+  /* style the tea-product-text class */
+  .tea-product-text {
+    padding: 20px;
     line-height: 1.6;
     color: #263844;
-}
+  }
 
-/* style tea-product-img class */
-.tea-product-img{
-    padding: 50px 0px 50px 100px;
+  /* style tea-product-img class */
+  .tea-product-img {
+    padding: 50px 0px 20px 30px;
     box-sizing: content-box;
-}
+  }
 
-/* style the img in tea-product-img class */
-.tea-product-img img{
-    width: 285px;
+  /* style the img in tea-product-img class */
+  .tea-product-img img {
+    width: 150px;
     object-fit: cover;
-}
+  }
 
-/* style the btn-minus class */
-.btn-minus{
+  /* style the btn-minus class */
+  .btn-minus {
     padding: 2px 5px;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 100%;
     border-color: #74646388;
     border-style: solid;
     border-width: 1px;
     background-color: white;
     border-radius: 4px;
     color: #263844;
-}
+  }
 
-/* create hover effect fot btn-minus & btn-plus */
-.btn-minus:hover, .btn-plus:hover{
-    cursor: pointer;
-    background-color: #e7e6e66e;
-}
-
-/* style the quantity class */
-.quantity{
-    padding: 6px 0px 2px;
+  /* style the quantity class */
+  .quantity {
+    padding: 4px 0px 2px;
     text-align: center;
     border-color: #74646388;
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
-}
+  }
 
-/* style the btn-plus class */
-.btn-plus{
+  /* style the btn-plus class */
+  .btn-plus {
     padding: 2px 4px;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 100%;
     border-color: #74646388;
     border-style: solid;
     border-width: 1px;
     background-color: white;
     border-radius: 4px;
     color: #263844;
-}
+  }
 
-/* style the btn-addtocart class */
-.btn-addtocart{
+  /* style the btn-addtocart class */
+  .btn-addtocart {
     text-align: center;
     width: 100%;
     padding: 18px 0px;
@@ -392,23 +551,120 @@ footer{
     border-radius: 28px;
     background-color: #bfe4bd;
     font-size: 18px;
+  }
+}
+
+/* Product page for min-width of 700 */
+@media (min-width: 700px) {
+  /* style the tea-product-container class */
+  .tea-product-container {
+    display: block;
+    padding: 60px 0px 50px;
+  }
+
+  /* style the tea-product-content class */
+  .tea-product-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    margin: 0px 120px;
+    box-shadow: 1px 1px 4px #5e5d5d;
+    border-radius: 20px;
+  }
+
+  /* style the tea-product-text class */
+  .tea-product-text {
+    padding: 50px 50px 50px 50px;
+    line-height: 1.6;
+    color: #263844;
+  }
+
+  /* style tea-product-img class */
+  .tea-product-img {
+    padding: 50px 0px 50px 100px;
+    box-sizing: content-box;
+  }
+
+  /* style the img in tea-product-img class */
+  .tea-product-img img {
+    width: 285px;
+    object-fit: cover;
+  }
+
+  /* style the btn-minus class */
+  .btn-minus {
+    padding: 2px 5px;
+    font-weight: 550;
+    font-size: 20px;
+    border-color: #74646388;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 4px;
+    color: #263844;
+  }
+
+  /* create hover effect fot btn-minus & btn-plus */
+  .btn-minus:hover,
+  .btn-plus:hover {
+    cursor: pointer;
+    background-color: #e7e6e66e;
+  }
+
+  /* style the quantity class */
+  .quantity {
+    padding: 6px 0px 2px;
+    text-align: center;
+    border-color: #74646388;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+
+  /* style the btn-plus class */
+  .btn-plus {
+    padding: 2px 4px;
+    font-weight: 550;
+    font-size: 20px;
+    border-color: #74646388;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 4px;
+    color: #263844;
+  }
+
+  /* style the btn-addtocart class */
+  .btn-addtocart {
+    text-align: center;
+    width: 100%;
+    padding: 18px 0px;
+    font-weight: 550;
+    color: #263844;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 28px;
+    background-color: #bfe4bd;
+    font-size: 18px;
+  }
 }
 
 /* Create hover effect for btn-addtocart class */
-.btn-addtocart:hover{
-    background-color: #c6ecc5;
-    cursor: pointer;
+.btn-addtocart:hover {
+  background-color: #c6ecc5;
+  cursor: pointer;
 }
 
 /* style suggested-product class */
-.suggested-product{
-    text-align: center;
-    display: block;
-    padding: 20px 0px;
+.suggested-product {
+  text-align: center;
+  display: block;
+  padding: 20px 0px;
 }
 
 /* style h2 in suggested-product class */
-.suggested-product h2{
-    font-family: 'Ubuntu' sans-serif;
-    color: #263844;
+.suggested-product h2 {
+  font-family: "Ubuntu" sans-serif;
+  color: #263844;
 }
