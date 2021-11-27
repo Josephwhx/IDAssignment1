@@ -21,14 +21,17 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
 
 ## Features
 **Existing Features** <br>
-- Feature 1 - Allows user to navigate around website easily with a navigation bar
-- Feature 2 - Newsletter, allows user to input their email (Won't be collecting the data, just a template)
-
+- Navigation bar - Allows user to navigate around website easily
+- Newsletter - Allows user to input their email (Won't be collecting the data, just a template)
+- Partial shopping cart - Allows user to add item in cart and remove all (A shopping cart without a checkout page, but it's still works)
+- Button to increase quantity of item - Allows user to add any amount of items they want to cart
+- Menu button (for mobile) - Allows user to navigate easily around the website
+- Hover effects - For aesthetics
 
 <br>
 
 **Features left to implement** <br>
-- Shopping cart
+- Full Shopping cart
 
 ## Technology Used
 * Ionicons
@@ -40,6 +43,8 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     * To style my website.
 * JavaScript
     * To install the ionicons to my website.
+    * To make a semi-functioning shopping cart.
+    * To make menu nav bar for phone.
 
 ## Testing
 
@@ -51,7 +56,7 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     * https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
     * https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/
     * https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
-    
+    * https://www.kirupa.com/html5/setting_css_styles_using_javascript.htm
 
 **Media**
 * Sources for images used in my website:
