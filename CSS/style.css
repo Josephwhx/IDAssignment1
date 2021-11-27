@@ -32,7 +32,7 @@
   /* style nav-content */
   .nav-content {
     display: none;
-    background-color: #dad6d6;
+    background-color: #ececec;
     list-style: none;
     padding: 10px 0px 10px 22px;
     line-height: 1.5;
@@ -96,6 +96,7 @@
     display: flex;
     list-style-type: none;
     padding: 0px 80px;
+    background-color: initial;
   }
 
   /* style nav-items */
@@ -155,6 +156,7 @@
     display: flex;
     list-style-type: none;
     padding: 0px 110px;
+    background-color: initial;
   }
 
   /* style nav-items */
