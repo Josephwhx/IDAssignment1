@@ -50,6 +50,7 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     * https://amashashalindi.medium.com/creating-a-small-e-commerce-website-using-html-and-css-df799808d12
     * https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
     * https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/
+    * https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
     
 
 **Media**
