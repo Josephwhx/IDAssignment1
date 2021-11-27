@@ -1,3 +1,15 @@
+/* ===================================== For mobile menu bar ======================================== */
+/* =================================== Refered to w3schools.com ===================================== */
+function displayMenu(){
+    var x = document.querySelector(".nav-content");
+    if (x.style.display === "block"){
+        x.style.display = "none";
+    }
+    else{
+        x.style.display = "block";
+    }
+}
+
 /* ====================================== To Adjust quantity of product =================================== */
 var plusQuantity = document.getElementsByClassName("btn-plus");
 var minusQuantity = document.getElementsByClassName("btn-minus");
