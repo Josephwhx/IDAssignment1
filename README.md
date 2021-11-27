@@ -51,6 +51,7 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     1. Go to the footer/bottom of the page.
     2. Try entering anything that is not an email and click submit, an error message would pop out.
     3. Try entering an email, it will bring you to the top of the page.
+    <br>
 2. Shopping cart number:
     1. Go to the "product" page, by clicking on the product on either "shop" or "home" page.
     2. Try clicking the "+" button, the amount in the quantity field would increase 1.
