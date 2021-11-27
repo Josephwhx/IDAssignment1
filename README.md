@@ -48,9 +48,17 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
 
 ## Testing
 1. Newsletter:
-    1. Go to the footer/bottom of the page
-    2. Try entering anything that is not an email and click submit, an error message would pop out
+    1. Go to the footer/bottom of the page.
+    2. Try entering anything that is not an email and click submit, an error message would pop out.
     3. Try entering an email, it will bring you to the top of the page.
+2. Shopping cart number:
+    1. Go to the "product" page, by clicking on the product on either "shop" or "home" page.
+    2. Try clicking the "+" button, the amount in the quantity field would increase 1.
+    3. Try clicking the "-" button, the amount in the quantity field would decrease by 1 unless the value in the quantity field is 1.
+    4. Try entering a negative number or zero in the quatity field, and click on "add to cart", the value on the shopping cart won't increase.
+    5. Try entering a positive number, the number on the shopping cart will increase accordingly.
+    6. Try to go to another page and notice that the value on the cart is still the same.
+    7. Try clicking the shopping cart, and notice that the value of the shopping cart is reseted to 0.
 
 ## Credits
 **Content**
