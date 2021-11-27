@@ -47,7 +47,10 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     * To make menu nav bar for phone.
 
 ## Testing
-
+1. Newsletter:
+    1. Go to the footer/bottom of the page
+    2. Try entering anything that is not an email and click submit, an error message would pop out
+    3. Try entering an email, it will bring you to the top of the page.
 
 ## Credits
 **Content**
