@@ -231,7 +231,7 @@
 .pop-product {
   display: block;
   text-align: center;
-  font-family: "Ubuntu" sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding: 50px 0px;
 }
 
@@ -326,7 +326,7 @@ footer {
 }
 
 /* style the paragraph in title-display class */
-.title-display h1 p {
+.title-display p {
   font-size: 60px;
 }
 
@@ -397,7 +397,7 @@ footer {
 .product-container {
   display: block;
   text-align: center;
-  font-family: "Ubuntu" sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding: 50px 0px;
   min-height: 50vh;
 }
@@ -667,6 +667,6 @@ footer {
 
 /* style h2 in suggested-product class */
 .suggested-product h2 {
-  font-family: "Ubuntu" sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #263844;
 }
