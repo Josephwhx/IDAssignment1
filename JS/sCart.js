@@ -83,6 +83,7 @@ for (i = 0; i < cartBtn.length; i++){
         total = 0;
         localStorage.setItem("total", total);
         document.querySelector(".cart span").textContent = total;
+        alert("Checkout Successful");
     });
 }
 
