@@ -69,6 +69,8 @@ https://xd.adobe.com/view/1d48c51b-4304-46f8-b56c-5a68281bd7e8-481b/
     * https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/
     * https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
     * https://www.kirupa.com/html5/setting_css_styles_using_javascript.htm
+    * https://www.w3schools.com/jsref/met_win_alert.asp
+    
 
 **Media**
 * Sources for images used in my website:
