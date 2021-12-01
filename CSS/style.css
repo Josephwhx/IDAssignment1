@@ -419,6 +419,7 @@ template {
     padding: 5px;
     color: #1b1a17;
     padding-right: 10px;
+    margin-top: 10px;
   }
 }
 
@@ -448,13 +449,13 @@ template {
   .nav-content {
     display: flex;
     list-style-type: none;
-    padding: 0px 80px;
+    padding: 8px 60px;
     background-color: initial;
   }
 
   /* style nav-items */
   .nav-items {
-    padding: 5px 30px;
+    padding: 5px 20px;
   }
 
   /* style nav-items a */
